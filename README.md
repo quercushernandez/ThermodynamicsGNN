@@ -52,7 +52,7 @@ python main.py --sys_name beam --train False --n_hidden 2 --dim_hidden 50 --pass
 python main.py --sys_name cylinder --train False --n_hidden 2 --dim_hidden 128 --passes 10
 ```
 
-The `data/` folder includes the database and the pretrained parameters of the networks. The resulting time evolution of the state variables is plotted and saved in .png format in a generated `outputs/` folder.
+The `data/` folder includes the database and the pretrained parameters of the networks. The resulting time evolution of the state variables is plotted and saved in .gif format in a generated `outputs/` folder.
 
 |             Couette Flow                  |         Flow past a Cylinder             |             Bending Beam                  |
 | ------------------------------------------|------------------------------------------| ------------------------------------------|
