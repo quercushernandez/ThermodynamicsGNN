@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
     # Save and plot options
     parser.add_argument('--output_dir', default='outputs', type=str, help='output directory')
-    parser.add_argument('--plot_sim', default=False, type=str2bool, help='plot test simulation')
+    parser.add_argument('--plot_sim', default=True, type=str2bool, help='plot test simulation')
 
     args = parser.parse_args()
 
