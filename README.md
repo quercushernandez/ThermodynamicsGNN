@@ -19,7 +19,9 @@ For more information, please refer to the following:
 
 - Hernández, Quercus and Badías, Alberto and González, David and Chinesta, Francisco and Cueto, Elías. "[Thermodynamics-informed graph neural networks](https://arxiv.org/abs/2203.01874)." IEEE Transactions on Artificial Intelligence (2022).
 
-<table><tr><td valign="center"><img src="/outputs/beam.gif" width="400"><img src="/outputs/cylinder.gif" width="400"> </td></tr></table>
+<div align="center">
+<table><tr><td valign="center"><img src="/outputs/beam.gif" width="450"><img src="/outputs/cylinder.gif" width="350"> </td></tr></table>
+<\div>
 
 ## Setting it up
 
