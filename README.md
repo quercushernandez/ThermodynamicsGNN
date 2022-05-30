@@ -75,7 +75,7 @@ General Arguments:
 | `--train`                 | Train mode                                        | `True`, `False`                                       |
 | `--gpu`                   | Enable GPU calculations                           | `True`, `False`                                       |
 | `--output_dir`            | Output data directory                             | Default: `output`                                     |
-| `--plot_sim`              | Plot a est simulation                             | `True`, `False`                                       |
+| `--plot_sim`              | Plot a test simulation                            | `True`, `False`                                       |
 
 Training Arguments:
 
