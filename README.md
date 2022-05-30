@@ -30,7 +30,7 @@ First, clone the project.
 ```bash
 # clone project
 git clone https://github.com/quercushernandez/ThermodynamicsGNN.git
-cd ThermoGraphNN
+cd ThermodynamicsGNN
 ```
 
 Then, install the needed dependencies. The code is implemented in [Pytorch](https://pytorch.org). _Note that this has been tested using Python 3.9_.
