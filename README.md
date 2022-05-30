@@ -21,7 +21,7 @@ For more information, please refer to the following:
 
 <div align="center">
 <table><tr><td valign="center"><img src="/outputs/beam.gif" width="450"><img src="/outputs/cylinder.gif" width="350"> </td></tr></table>
-<\div>
+</div>
 
 ## Setting it up
 
