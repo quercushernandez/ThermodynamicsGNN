@@ -17,7 +17,7 @@ def main(args):
     solver = Solver(args)
 
     if args.train: solver.train_model()
-    #solver.test_model()
+    solver.test_model()
     if args.plot_sim: solver.plot_sim()
 
 
