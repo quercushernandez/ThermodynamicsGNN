@@ -1,7 +1,7 @@
 
 <div align="center">  
   
-# Structure-Preserving Neural Networks
+# Thermodynamics-informed graph neural networks
 
 [![Project page](https://img.shields.io/badge/-Project%20page-blue)](https://amb.unizar.es/people/quercus-hernandez/)
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/pdf/2203.01874.pdf)
@@ -52,10 +52,10 @@ The `data/` folder includes the database and the pretrained parameters of the ne
 
 |             Couette Flow                  |         Flow past a Cylinder             |
 | ------------------------------------------|------------------------------------------|
-|<div align="center"> <img src="/data/couette.png" width="500"></div>|<div align="center"> <img src="/data/cylinder.png" width="500"></div>|
+|<div align="center"> <img src="/data/couette.png" width="250"></div>|<div align="center"> <img src="/data/cylinder.png" width="250"></div>|
 |             Bending Beam                  |
 | ------------------------------------------|
-| <div align="center"> <img src="/data/beam.png" width="500"></div> |
+| <div align="center"> <img src="/data/beam.png" width="250"></div> |
 
 ### Train a custom net
 
