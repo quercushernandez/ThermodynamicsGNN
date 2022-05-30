@@ -54,9 +54,9 @@ python main.py --sys_name cylinder --train False --n_hidden 2 --dim_hidden 128 -
 
 The `data/` folder includes the database and the pretrained parameters of the networks. The resulting time evolution of the state variables is plotted and saved in .gif format in a generated `outputs/` folder.
 
-|             Couette Flow                  |         Flow past a Cylinder             |             Bending Beam                  |
+|             Couette Flow                  |         Bending Beam                     |             Flow past a Cylinder          |
 | ------------------------------------------|------------------------------------------| ------------------------------------------|
-|<div align="center"> <img src="/data/couette.png" width="250"></div>|<div align="center"> <img src="/data/cylinder.png" width="250"></div>| <div align="center"> <img src="/data/beam.png" width="250"></div> |
+|<div align="center"> <img src="/data/couette.png" width="250"></div>|<div align="center"> <img src="/data/beam.png" width="250"></div>| <div align="center"> <img src="/data/cylinder.png" width="250"></div> |
 
 ### Train a custom net
 
@@ -73,7 +73,7 @@ General Arguments:
 |---------------------------| ------------------------------------------------- |------------------------------------------------------ |
 | `--sys_name`              | Study case                                        | `couette`, `beam`, `cylinder`                         |
 | `--train`                 | Train mode                                        | `True`, `False`                                       |
-| `--gpu`                   | Enable GPU calculations                           | `True`, `False`                                       |
+| `--gpu`                   | Enable GPU acceleration                           | `True`, `False`                                       |
 | `--output_dir`            | Output data directory                             | Default: `output`                                     |
 | `--plot_sim`              | Plot a test simulation                            | `True`, `False`                                       |
 
