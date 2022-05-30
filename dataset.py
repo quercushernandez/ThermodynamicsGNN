@@ -30,7 +30,7 @@ class CouetteDataset(Dataset):
     def __len__(self):
         return len(self.sims)
 
-    def get_stats(self):
+    def get_stats(self, device):
         mean = 0  
         for sim in range(len(self.sims)):
             batch = Batch.from_data_list(self[sim])
@@ -44,7 +44,7 @@ class CouetteDataset(Dataset):
         std = var**0.5
         std[std==0] = 1
 
-        return {'mean': mean, 'std': std}, None
+        return {'mean': mean.to(device), 'std': std.to(device)}, None
 
 
 class BeamDataset(Dataset):
@@ -68,7 +68,7 @@ class BeamDataset(Dataset):
     def __len__(self):
         return len(self.sims)
 
-    def get_stats(self):
+    def get_stats(self, device):
         mean_1 = 0  
         mean_2 = 0 
         for sim in range(len(self.sims)):
@@ -90,7 +90,7 @@ class BeamDataset(Dataset):
         std_2 = var_2**0.5
         std_2[std_2==0] = 1
 
-        return {'mean': mean_1, 'std': std_1}, {'mean': mean_2, 'std': std_2}
+        return {'mean': mean_1.to(device), 'std': std_1.to(device)}, {'mean': mean_2.to(device), 'std': std_2.to(device)}
 
 
 class CylinderDataset(Dataset):
@@ -114,7 +114,7 @@ class CylinderDataset(Dataset):
     def __len__(self):
         return len(self.sims)
 
-    def get_stats(self):
+    def get_stats(self, device):
         'Computes the statistics of the dataset'
         # Mean
         mean_1 = 0  
@@ -140,7 +140,7 @@ class CylinderDataset(Dataset):
         std_2 = var_2**0.5
         std_2[std_2==0] = 1
 
-        return {'mean': mean_1, 'std': std_1}, {'mean': mean_2, 'std': std_2}
+        return {'mean': mean_1.to(device), 'std': std_1.to(device)}, {'mean': mean_2.to(device), 'std': std_2.to(device)}
 
 
 def load_dataset(args):
