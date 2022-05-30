@@ -27,7 +27,7 @@ class Solver(object):
         self.dt = self.train_set.dt
 
         # Normalization
-        self.stats_z, self.stats_q = self.train_set.get_stats()
+        self.stats_z, self.stats_q = self.train_set.get_stats(self.device)
 
         # Training Parameters
         self.max_epoch = args.max_epoch
