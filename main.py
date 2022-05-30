@@ -22,7 +22,7 @@ def main(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Thermodynamics-infomed Graph Neural Networks')
+    parser = argparse.ArgumentParser(description='Thermodynamics-informed Graph Neural Networks')
 
     # Study Case
     parser.add_argument('--sys_name', default='couette', type=str, help='physic system name')
