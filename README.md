@@ -56,7 +56,7 @@ The `data/` folder includes the database and the pretrained parameters of the ne
 
 |             Couette Flow                  |         Bending Beam                     |             Flow past a Cylinder          |
 | ------------------------------------------|------------------------------------------| ------------------------------------------|
-|<div align="center"> <img src="/data/couette.png" width="250"></div>|<div align="center"> <img src="/data/beam.png" width="250"></div>| <div align="center"> <img src="/data/cylinder.png" width="250"></div> |
+|<div align="center"> <img src="/data/couette.png" width="250"></div>|<div align="center"> <img src="/data/beam.png" width="300"></div>| <div align="center"> <img src="/data/cylinder.png" width="200"></div> |
 
 ### Train a custom net
 
