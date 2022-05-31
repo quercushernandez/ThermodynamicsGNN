@@ -45,8 +45,8 @@ def plot_3D(z_net, z_gt, data_list, output_dir, var=6):
     s2 = ax2.scatter(q1_gt[n[:,0]==1], q2_gt[n[:,0]==1], q3_gt[n[:,0]==1], c=var_gt[n[:,0]==1], vmax=z_max, vmin=z_min)
     ax2.scatter(q1_gt[n[:,1]==1], q2_gt[n[:,1]==1], q3_gt[n[:,1]==1], color='k')    
     # Colorbar
-    fig.colorbar(s1, ax=ax1, location='bottom')
-    fig.colorbar(s2, ax=ax2, location='bottom')
+    fig.colorbar(s1, ax=ax1, location='bottom', pad=0.08)
+    fig.colorbar(s2, ax=ax2, location='bottom', pad=0.08)
     
     # Animation
     def animate(snap):
