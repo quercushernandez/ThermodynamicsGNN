@@ -20,7 +20,7 @@ For more information, please refer to the following:
 - Hernández, Quercus and Badías, Alberto and González, David and Chinesta, Francisco and Cueto, Elías. "[Thermodynamics-informed graph neural networks](https://arxiv.org/abs/2203.01874)." IEEE Transactions on Artificial Intelligence (2022).
 
 <div align="center">
-<img src="/outputs/beam.gif" width="400"><img src="/outputs/cylinder.gif" width="400">
+<img src="/outputs/beam.gif" width="450"><img src="/outputs/cylinder.gif" width="350">
 </div>
 
 ## Setting it up
@@ -56,7 +56,7 @@ The `data/` folder includes the database and the pretrained parameters of the ne
 
 |             Couette Flow                  |         Bending Beam                     |             Flow past a Cylinder          |
 | ------------------------------------------|------------------------------------------| ------------------------------------------|
-|<div align="center"> <img src="/data/couette.png" width="250"></div>|<div align="center"> <img src="/data/beam.png" width="300"></div>| <div align="center"> <img src="/data/cylinder.png" width="150"></div> |
+|<div align="center"> <img src="/data/couette.png" width="250"></div>|<div align="center"> <img src="/data/beam.png" width="250"></div>| <div align="center"> <img src="/data/cylinder.png" width="250"></div> |
 
 ### Train a custom net
 
