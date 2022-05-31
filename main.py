@@ -27,7 +27,7 @@ if __name__ == "__main__":
     # Study Case
     parser.add_argument('--sys_name', default='couette', type=str, help='physic system name')
     parser.add_argument('--train', default=False, type=str2bool, help='train or test')
-    parser.add_argument('--gpu', default=False, type=str2bool, help='GPU acceleration')
+    parser.add_argument('--gpu', default=True, type=str2bool, help='GPU acceleration')
 
     # Dataset Parameters
     parser.add_argument('--dset_dir', default='data', type=str, help='dataset directory')
