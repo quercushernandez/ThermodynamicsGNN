@@ -31,9 +31,9 @@ class EdgeModel(torch.nn.Module):
 
     def forward(self, src, dest, edge_attr, u=None, batch=None):
         if u is not None:
-            out = torch.cat([edge_attr, src, dest, u[batch]], 1)
+            out = torch.cat([edge_attr, src, dest, u[batch]], dim=1)
         else: 
-            out = torch.cat([edge_attr, src, dest], 1)
+            out = torch.cat([edge_attr, src, dest], dim=1)
         out = self.edge_mlp(out)
         return out
 
