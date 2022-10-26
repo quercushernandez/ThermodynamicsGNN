@@ -97,12 +97,11 @@ Training Arguments:
 If you found this code useful please cite our work as:
 
 ```
-@article{hern2020structurepreserving,
-    title={Thermodynamics-informed graph neural networks},
-    author={Quercus Hernandez and Alberto Badias and Francisco Chinesta and Elias Cueto},
-    year={2020},
-    eprint={2004.04653},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@article{hernandez2022thermodynamics,
+  title={Thermodynamics-informed Graph Neural Networks},
+  author={Hernandez, Quercus and Badias, Alberto and Chinesta, Francisco and Cueto, Elias},
+  journal={IEEE Transactions on Artificial Intelligence},
+  year={2022},
+  publisher={IEEE}
 }
 ```
