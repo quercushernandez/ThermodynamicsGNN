@@ -17,7 +17,7 @@ Networks, which induces a non-Euclidean geometrical prior with permutation invar
 
 For more information, please refer to the following:
 
-- Hernández, Quercus and Badías, Alberto and González, David and Chinesta, Francisco and Cueto, Elías. "[Thermodynamics-informed graph neural networks](https://ieeexplore.ieee.org/document/9787069)." IEEE Transactions on Artificial Intelligence (2022).
+- Hernández, Quercus and Badías, Alberto and Chinesta, Francisco and Cueto, Elías. "[Thermodynamics-informed graph neural networks](https://ieeexplore.ieee.org/document/9787069)." IEEE Transactions on Artificial Intelligence (2022).
 
 <div align="center">
 <img src="/outputs/beam.gif" width="450"><img src="/outputs/cylinder.gif" width="350">
