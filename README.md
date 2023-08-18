@@ -37,7 +37,7 @@ Then, install the needed dependencies. The code is implemented in [Pytorch](http
 
 ```bash
 # install dependencies
-pip install numpy scipy matplotlib pytorch torch-geometric
+pip install numpy scipy matplotlib pytorch torch-geometric torch_scatter
  ```
 
 ## How to run the code  
