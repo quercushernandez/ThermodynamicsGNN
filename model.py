@@ -2,6 +2,7 @@
 
 import torch
 import torch.nn as nn
+from torch_scatter import scatter_add
 
 
 # Multi Layer Perceptron (MLP) class
@@ -47,7 +48,7 @@ class NodeModel(torch.nn.Module):
 
     def forward(self, x, edge_index, edge_attr, f=None, u=None, batch=None):
         src, dest = edge_index
-        out = torch.scatter_add(edge_attr, dest, dim=0, dim_size=x.size(0))
+        out = scatter_add(edge_attr, dest, dim=0, dim_size=x.size(0))
         if f is not None:
             out = torch.cat([x, out, f], dim=1)
         elif u is not None:
