@@ -164,7 +164,7 @@ class Solver(object):
             # Print Loss
             print('Data Loss:    {:1.2e} (Train) / {:1.2e} (Val)'.format(loss_z_train, loss_z_val))
             print('Deg Loss (E): {:1.2e} (Train) / {:1.2e} (Val)'.format(loss_deg_E_train, loss_deg_E_val))
-            print('Deg Loss (S): {:1.2e} (Train) / {:1.2e} (Val)\n'.format(loss_deg_E_train, loss_deg_S_val))
+            print('Deg Loss (S): {:1.2e} (Train) / {:1.2e} (Val)\n'.format(loss_deg_S_train, loss_deg_S_val))
 
             epoch += 1
 
