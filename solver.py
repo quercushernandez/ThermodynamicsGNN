@@ -259,7 +259,7 @@ class Solver(object):
         return error  
 
 
-    # Integrated a single simulation
+    # Integrate a single simulation
     def integrate_sim(self, data_list, full_rollout=True):
 
         N_nodes = data_list[0].x.size(0)
